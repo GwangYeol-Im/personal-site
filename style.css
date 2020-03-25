@@ -1,7 +1,7 @@
 html {
   background: url("image/cover.png") no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  height: 82%;
 }
 
 body {
@@ -43,22 +43,6 @@ a {
 .navbar__menu li {
   list-style: none;
   padding: 0px 30px;
-}
-
-.navbar__icons {
-  margin: 0px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0px;
-}
-
-.navbar__icons li {
-  list-style: none;
-  padding: 0px 12px;
-}
-
-.navbar__icons li a {
-  font-size: 18px;
 }
 
 .navbar__toggleBtn {
@@ -118,6 +102,32 @@ a {
   left: 70px;
   text-shadow: 2px 2px rgba(128, 128, 128, 0.555);
   max-width: 100%;
+}
+.footer__icons {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  padding-left: 0px;
+  background-color: rgb(33, 56, 56);
+  margin: 0px 0px;
+  padding: 24px 0px;
+}
+
+.footer__icons li {
+  list-style: none;
+  padding: 0px 18px;
+  color: rgb(137, 137, 137);
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+}
+
+.footer__icons li a {
+  font-size: 20px;
+  color: rgb(137, 137, 137);
+}
+
+.footer__icons li a:hover {
+  color: rgb(245, 237, 237);
 }
 
 @media screen and (max-width: 768px) {
