@@ -105,6 +105,7 @@ a {
 }
 
 .footer {
+  position: fixed;
   left: 0px;
   bottom: 0px;
   width: 100%;
@@ -215,6 +216,10 @@ a {
     top: 50px;
     left: auto;
     font-size: 100px;
+  }
+
+  .footer {
+    position: static;
   }
 
   .footer__icons {
