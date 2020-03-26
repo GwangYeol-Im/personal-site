@@ -92,8 +92,8 @@ a {
 }
 
 .figure > figcaption {
-  font-size: 80px;
-  font-family: ;
+  font-size: 110px;
+  line-height: 96px;
   color: rgb(245, 245, 245);
   font-family: "Cormorant Garamond", serif;
   letter-spacing: 0.01em;
@@ -137,11 +137,18 @@ a {
   color: rgb(245, 237, 237);
 }
 
+@media screen and (max-width: 1024px) {
+  .figure > figcaption {
+    font-size: 10.74vw;
+    line-height: 9.375vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   html {
     height: 95%;
   }
-  .figure > figcaption,
+
   .image {
     max-width: 100%;
   }
@@ -211,11 +218,12 @@ a {
     align-items: center;
   }
   .figure > figcaption {
-    max-width: 100%;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: auto;
-    font-size: 100px;
+    font-size: 12.64vw;
+    line-height: 9.64vw;
+    text-shadow: 0px 0px 0.56vw rgba(0, 0, 0, 0.4);
   }
 
   .footer {
